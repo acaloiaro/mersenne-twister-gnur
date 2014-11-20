@@ -1,7 +1,7 @@
 mersenne-twister-gnur
 =====================
 
-A Mersenne-Twister implementation modeled after a validated with GNU R's RNG.c.
+A Mersenne-Twister implementation modeled after and validated with GNU R's RNG.c.
 
 #Examples
 ##Getting Ten Random Doubles with GNU R
