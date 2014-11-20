@@ -46,7 +46,7 @@ public class MersenneTwister {
      *
      * @param seed The seed
      */
-    public MersenneTwister(int seed) {
+    public MersenneTwister(long seed) {
         setSeed(seed);
     }
 
