@@ -1,7 +1,7 @@
 package org.acaloiaro.mersennetwister;
 
 /**
- * A Mersenne-Twister implementation modeled after a validated with GNU R's RNG.c
+ * A Mersenne-Twister implementation modeled after and validated with GNU R's RNG.c
  *
  * @author Adriano Caloiaro
  * @date 11/18/14
