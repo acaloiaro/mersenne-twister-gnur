@@ -58,7 +58,7 @@ public class MersenneTwister {
         int j;
 
         // Unsign the incoming seed
-        int s = (int) (seed & 0xFFFFFFFFL);
+        int s = (int) (seed & 0x0000FFFFL);
 
         // Initial seed scrambling ( GNU R Convention )
         for (j = 0; j < GNU_R_SEED_SCRAMBLE_CONSTANT; j++)
@@ -71,7 +71,7 @@ public class MersenneTwister {
         }
 
         // Default the first element to unsigned N ( A GNU R convention )
-        stateVector[0] = (N & 0xFFFFFFFF);
+        stateVector[0] = N;
 
         // Check for all zeros to be safe
         boolean notallzero = true;
