@@ -3,6 +3,8 @@ mersenne-twister-gnur
 
 A Mersenne-Twister implementation modeled after and validated with GNU R's RNG.c.
 
+This is the PRNG in [Renjin](https://github.com/bedatadriven/renjin), a JVM-based interpreter for R.
+
 # Examples
 ## Getting Ten Random Doubles with GNU R
 ```
