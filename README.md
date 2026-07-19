@@ -1,3 +1,5 @@
+**NOTICE**: This repository has been moved to [https://code.adriano.fyi/me/mersenne-twister-gnur](https://code.adriano.fyi/me/mersenne-twister-gnur). Microsoft has shown little interest in stewarding what was once the best and largest open source community. This small act of migration is my way showing that we don't all support Microsoft's disinterest.
+
 mersenne-twister-gnur
 =====================
 
